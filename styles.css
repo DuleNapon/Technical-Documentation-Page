@@ -1,0 +1,83 @@
+.code-text {
+  width: 90%;
+  background: lightgray;
+  text-align: left;
+  border-radius: 5px;
+  padding: 20px;
+  margin: auto;
+  
+}
+p{
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  line-height: 1.7;
+}
+.list {
+  width: 90%;
+  margin: auto;
+}
+li {
+  line-height: 1.7;
+}
+#image {
+  width: 90%;
+  margin: auto;
+  
+}
+img {
+  width: 100%;
+}
+th, td {
+  border: 1px solid;
+  padding: 20px;
+}
+table {
+  width: 90%;
+  background: lightgray;
+  border: 1px solid;
+  padding: 5px;
+  margin: auto;
+}
+.table{
+  width: 90%;
+  margin: auto;
+}
+code {
+  background: lightgray;
+  border-radius: 5px;
+  
+}
+.title {
+
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+#navbar {
+  background: lightgray;
+  top:0;
+  left:0;
+  position: fixed;
+  width: 150px;
+  height: 100%;
+  border: 2px solid;
+}
+main {
+  padding-left: 140px;
+}
+#nav-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.nav-link {
+  border: 1px solid;
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  main{
+  
+  }
+}
